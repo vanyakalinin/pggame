@@ -52,7 +52,7 @@ class tank(sprite.Sprite):
             self.napr = 'vlev'
             self.rect.x -= 5
             self.lastx = self.rect.x
- 
+tankp = tank('tamk.png',0,0, 30,30) 
 fps = time.Clock() #контроль fps
 game = True
 while game:
