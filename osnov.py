@@ -54,7 +54,7 @@ class tank(sprite.Sprite):
             self.lastx = self.rect.x
 am1 = image.load('background.png')
 am1 = transform.scale(am1, (600,600))
-tankp = tank('tamk.png',0,0, 30,30) 
+tankp = tank('rt.png',0,0, 30,30) 
 fps = time.Clock() #контроль fps
 game = True
 while game:
